@@ -6,7 +6,7 @@ import TextChanel from "./TextChanel";
 export default function Main() {
   return (
     <main className="base">
-      <aside>
+      <aside className="">
         <div className="top">
           <h3>
             Frontend BootCamp (14) <i className="fa-solid fa-angle-down"></i>
