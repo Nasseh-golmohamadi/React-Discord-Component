@@ -1,3 +1,5 @@
+import mapsa from "/Mapsa.png";
+
 export default function Navbar() {
   return (
     <nav className="leftest-nav">
@@ -10,7 +12,7 @@ export default function Navbar() {
         <div className="line"></div>
         <li className="active">
           <a href="#">
-            <img src="./src/assets/img/Mapsa.png" alt="" />
+            <img src={mapsa} alt="" />
           </a>
         </li>
         <li>
