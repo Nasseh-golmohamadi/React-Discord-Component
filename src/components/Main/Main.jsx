@@ -2,6 +2,8 @@ import { Information } from "./Information";
 import OfflineSec from "./OfflineSec";
 import OnlineSec from "./OnlineSec";
 import TextChanel from "./TextChanel";
+import nasseh from "/nasseh.jpg";
+import moein from "/moein.jpg";
 
 export default function Main() {
   return (
@@ -37,12 +39,7 @@ export default function Main() {
 
         <div className="bottom">
           <div className="left">
-            <img
-              src="./src/assets/img/photo_2022-05-26_07-45-46.jpg"
-              alt=""
-              width="35px"
-              height="35px"
-            />
+            <img src={nasseh} alt="" width="35px" height="35px" />
             <div>
               <h5>Nasseh</h5>
               <p>#1264</p>
@@ -95,7 +92,7 @@ export default function Main() {
                 <span>July 20,2022</span>
                 <div className="path">
                   <div className="seperate">
-                    <img src="./src/assets/img/moein.jpg" alt="" />
+                    <img src={moein} alt="" />
                     <div className="column">
                       <p>
                         <p className="moein">
@@ -116,12 +113,7 @@ export default function Main() {
                 <span>July 20,2022</span>
                 <div className="path">
                   <div className="seperate">
-                    <img
-                      src="./src/assets/img/moein.jpg"
-                      width="50px"
-                      height="50px"
-                      alt=""
-                    />
+                    <img src={moein} width="50px" height="50px" alt="" />
                     <div className="column">
                       <p>
                         <p className="moein">
